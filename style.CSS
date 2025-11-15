@@ -4,22 +4,56 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 40px 80px;
+background: #3a2f2b;
+color: white;
+}
+header > a {
+color: white;
+font-size: 24px;
+font-weight: 600;
+text-decoration: none;
+}
+.headerdiv{
+    text-align: center;
+    max-width: 380px;
+
+
+}
 .hero{
-padding: 50px 20px;
-text-align: left;
-background: #e8e1db;
+ font-size: 22px;
+ font-weight: 300;
+}
+.niv{
+ font-size: 40px;
+ margin: 5px 0;
+
+}
+.superman{
+ font-size: 15px;
+ margin-bottom: 15px;
+ opacity: 0.8;
 }
 
-
-
-
-.presentation{
-
-padding: 40px 20px;
-background: white;
+.headerli{
+ list-style: none;
 }
-.valeur{
-
-padding: 40px 20px;
-background: #ddd0c7;
+.header div li a {
+ display: inline-block;
+    padding: 10px 20px;
+    background: white;
+    color: #3a2f2b;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.header nav ul {
+display: flex;
+    gap: 25px;
+    list-style: none;
 }
