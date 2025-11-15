@@ -5,46 +5,58 @@
     box-sizing: border-box;
 }
 
-.header{
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 40px 80px;
-background: #3a2f2b;
-color: white;
+/* ======== HEADER ======== */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+    background: #3a2f2b;
+    color: white;
+    background-image: url("asset/image 8.png");
+    background-size: cover;
+    background-position: center;
 }
+
+/* Nom du photographe */
 header > a {
-color: white;
-font-size: 24px;
-font-weight: 600;
-text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
 }
-.headerdiv{
+
+/* Bloc central du header */
+.headerdiv {
     text-align: center;
     max-width: 380px;
-
-
-}
-.hero{
- font-size: 22px;
- font-weight: 300;
-}
-.niv{
- font-size: 40px;
- margin: 5px 0;
-
-}
-.superman{
- font-size: 15px;
- margin-bottom: 15px;
- opacity: 0.8;
+    margin: 0 auto;
 }
 
-.headerli{
- list-style: none;
+.hero {
+    font-size: 22px;
+    font-weight: 300;
 }
+
+.niv {
+    font-size: 40px;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.superman {
+    font-size: 15px;
+    margin-bottom: 15px;
+    opacity: 0.8;
+}
+
+/* Bouton "Réserver une séance" */
+.headerli {
+    list-style: none;
+}
+
 .header div li a {
- display: inline-block;
+    display: inline-block;
     padding: 10px 20px;
     background: white;
     color: #3a2f2b;
@@ -52,8 +64,93 @@ text-decoration: none;
     text-decoration: none;
     font-weight: 600;
 }
+
+/* NAVIGATION */
 .header nav ul {
-display: flex;
+    display: flex;
     gap: 25px;
     list-style: none;
 }
+
+.header nav ul li,
+.header nav ul li a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* ======== SECTIONS ======== */
+.section {
+    width: 85%;
+    margin: 80px auto;
+}
+
+/* Titre de section */
+.section h2,
+.sectionh2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+/* Prestations = 3 colonnes */
+.sectiondiv,
+.section > div {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.section div img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+/* Texte prestations */
+.section div h3 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.section div p {
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/* ======== VALEURS AJOUTÉES ======== */
+section:nth-of-type(2) {
+    width: 85%;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+section:nth-of-type(2) div {
+    background: white;
+    padding: 20px;
+    width: 23%;
+    text-align: center;
+    border-radius: 8px;
+}
+
+section:nth-of-type(2) img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+/* ======== GALERIE ======== */
+section:nth-of-type(3) {
+    width: 85%;
+    margin: 60px auto;
+}
+
+section:nth-of-type(3) > div {
+    background: white;
+    pa
