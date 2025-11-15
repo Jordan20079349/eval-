@@ -1,0 +1,25 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+padding: 50px 20px;
+text-align: left;
+background: #e8e1db;
+}
+
+
+
+
+.presentation{
+
+padding: 40px 20px;
+background: white;
+}
+.valeur{
+
+padding: 40px 20px;
+background: #ddd0c7;
+}
